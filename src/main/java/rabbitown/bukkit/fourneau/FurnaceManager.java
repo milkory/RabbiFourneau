@@ -21,7 +21,6 @@ import java.util.Optional;
 /**
  * @author Milkory
  */
-@SuppressWarnings("unused")
 public class FurnaceManager {
 
     private static FurnaceManager instance;
@@ -31,7 +30,6 @@ public class FurnaceManager {
         return instance;
     }
 
-    /** Furnaces to Holograph map */
     private final List<FurnaceInstance> furnaces = new ArrayList<>();
 
     public void push(ItemStack item, Block block) {
