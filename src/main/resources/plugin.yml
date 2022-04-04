@@ -1,0 +1,13 @@
+name: RabbiFourneau
+main: rabbitown.bukkit.fourneau.RabbiFourneau
+version: 1.0.20
+
+api-version: 1.14
+
+commands:
+  rabbi-fourneau:
+    aliases: [ rf, rfo, rfu ]
+
+permissions:
+  rabbitown.fourneau.give:
+    default: op
